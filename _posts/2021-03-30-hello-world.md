@@ -1,10 +1,10 @@
 ---
 title: 你好，世界！
-date: 2021-03-30 10:34:00 +0800
-categories: [意识流随笔]
+date: 2022-03-27 10:34:00 +0800
+categories: [随笔]
 tags: [生活]
 pin: true
-author: tom
+author: 湾区书记汤姆
 
 toc: true
 comments: true
@@ -24,7 +24,7 @@ image:
 
 ### 三标题
 
-普通文本   
+感谢关注～  
 
 ```c++
 //代码片段
