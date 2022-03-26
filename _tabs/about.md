@@ -1,8 +1,14 @@
 ---
 title: About
-icon: fas fa-info-circle
+icon: fas fa-info
 order: 4
 ---
+- ### Hi there 👋, I'm Tom!
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+  - 🏫  _BSc in Computer Science_.
+  - 💻  I work on C / C++ / Java / Objective-C & Swift / Python / Markdown.
+  - 🧠  I used to take internship as an iOS developer at Bytedance Techonology.
+  - 🏖️  I will go to Shenzhen and work as a back-end engineer at Tencent.
+
+公众号: 汤姆还在写代码
+
