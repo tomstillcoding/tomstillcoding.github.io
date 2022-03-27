@@ -8,12 +8,12 @@ author: 湾区书记汤姆
 
 toc: true
 comments: true
-Typora-root-url: ..
+typora-root-url: ../../tomstillcoding.github.io
 math: false
 mermaid: true
 
 image:
-  src: /assets/blog_res/2021-03-30-%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C.assets/006BNqYCly1goze8qohb6j30mj0s64ki.jpg
+  src: /assets/blog_res/2021-03-30-hello-world.assets/huoshan.jpg
   alt: 签约成功
 
 ---
@@ -29,4 +29,4 @@ int main(){
 }
 ```
 
-![Screen Shot 2021-03-26 at 22.50.42](/assets/blog_res/2021-03-30-%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C.assets/Screen%20Shot%202021-03-26%20at%2022.50.42.png)
+![image-20220327184021601](/assets/2021-03-30-hello-world.assets/image-20220327184021601.png)
