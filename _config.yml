@@ -21,9 +21,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 湾区书记汤姆                         # the main title
+title: 爬坑的小白                         # the main title
 
-tagline: 这里是湾区书记汤姆的博客～   # it will display as the sub-title
+tagline: 这里是爬坑的小白的博客～   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
     这是通过Chirpy主题配置而成的
@@ -32,10 +32,10 @@ description: >-                        # used by seo meta and the atom feed
 url: ''
 
 github:
-  username: tomstillcoding             # change to your github username
+  username: jjkls             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: hehaotian45            # change to your twitter username
 
 social:
   # Change to your full name.
