@@ -3,12 +3,12 @@ title: 关于
 icon: fas fa-info
 order: 4
 ---
-- ### Hi there 👋, I'm !
+- ### Hi there 👋, I'm jjkls !
 
-  - 🏫  _BSc in Computer Science_.
-  - 💻  I work on C / C++ / Java / Objective-C & Swift / Python / Markdown.
-  - 🧠  I used to take internship as an iOS developer at Bytedance Techonology.
-  - 🏖️  I will go to Shenzhen and work as a back-end engineer at Tencent.
+  - 🏫  _CUFE in Computer Science_.
+  - 💻  I work on C++  Markdown.
+  - 🧠  Data Structures and Algorithms
+  - 🏖️  I will share some of my learning feelings and experiences 
 
-公众号: 
+微信: hehaotian18
 
