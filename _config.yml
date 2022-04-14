@@ -35,13 +35,13 @@ github:
   username: jjkls             # change to your github username
 
 twitter:
-  username: hehaotian45            # change to your twitter username
+  username: hehaotian8            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: tomstillcoding
-  email: example@doamin.com             # change to your email address
+  name: 
+  email:              # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
