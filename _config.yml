@@ -23,7 +23,7 @@ timezone:
 
 title: Petals的博客                         # the main title
 
-tagline: ~   # it will display as the sub-title
+tagline: a   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
     这是通过Chirpy主题配置而成的
