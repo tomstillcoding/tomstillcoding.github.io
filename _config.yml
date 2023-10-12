@@ -21,9 +21,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 湾区书记汤姆                         # the main title
+title: 所谓的Guitar                         # the main title
 
-tagline: 这里是湾区书记汤姆的博客～   # it will display as the sub-title
+tagline: 这里是小潘的博客～   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
     这是通过Chirpy主题配置而成的
@@ -32,7 +32,7 @@ description: >-                        # used by seo meta and the atom feed
 url: ''
 
 github:
-  username: tomstillcoding             # change to your github username
+  username: pdc1024             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -40,12 +40,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: tomstillcoding
-  email: example@doamin.com             # change to your email address
+  name: pdc1024
+  email: pdc1024@qq.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/pdc1024       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ./assets/config/avatar.jpg
+avatar: ./assets/config/成果.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
