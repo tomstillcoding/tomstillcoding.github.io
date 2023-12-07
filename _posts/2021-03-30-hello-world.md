@@ -12,11 +12,5 @@ typora-root-url: ../../Magic.github.io
 math: false
 mermaid: true
 
----
 
-```c++
-
-
-```
-
-![IMG_0910](./assets/blog_res/2021-03-30-hello-world.assets/IMG_0910-1922143.JPG)
+![IMG_0910](/assets/blog_res/2021-03-30-hello-world.assets/IMG_0910-1922143.JPG)
