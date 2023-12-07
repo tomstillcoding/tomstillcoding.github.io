@@ -14,12 +14,9 @@ mermaid: true
 
 ---
 
-# 感谢关注～ 
-
-
-这里可以放代码片段噢～
 ```c++
-//代码片段
-int main(){
-  hello world;
-}
+
+
+```
+
+![IMG_0910](./assets/blog_res/2021-03-30-hello-world.assets/IMG_0910-1922143.JPG)
