@@ -8,7 +8,7 @@ author: 湾区书记汤姆
 
 toc: true
 comments: true
-typora-root-url: ../../tomstillcoding.github.io
+typora-root-url: ../../Magic.github.io
 math: false
 mermaid: true
 
