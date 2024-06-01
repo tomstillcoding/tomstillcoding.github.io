@@ -18,7 +18,7 @@ image:
 
 ---
 
-# 感谢关注～ 
+# 感wqde～ 
 
 
 这里可以放代码片段噢～
@@ -32,3 +32,7 @@ int main(){
 ![image-20220327184021601](/assets/blog_res/2021-03-30-hello-world.assets/image-20220327184021601.png)
 
 ![Screen Shot 2022-04-03 at 11.46.41 AM](/assets/blog_res/2021-03-30-hello-world.assets/Screen Shot 2022-04-03 at 11.46.41 AM.png)
+
+
+
+![微信图片_20240502003528](/../aicessq.github.io/assets/blog_res/2021-03-30-hello-world.assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240502003528.jpg)
