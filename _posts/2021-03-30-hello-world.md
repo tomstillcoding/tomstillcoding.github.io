@@ -8,13 +8,11 @@ author: 湾区书记汤姆
 
 toc: true
 comments: true
-typora-root-url: ../../tomstillcoding.github.io
+typora-root-url: ../../desytiny.github.io
 math: false
 mermaid: true
 
-image:
-  src: /assets/blog_res/2021-03-30-hello-world.assets/huoshan.jpg
-  alt: 签约成功
+
 
 ---
 
@@ -30,3 +28,5 @@ int main(){
 ```
 
 ![](/../desytiny.github.io/assets/blog_res/2021-03-30-hello-world.assets/huoshan.jpg)
+
+![image-20260413200356678](/_posts/2021-03-30-hello-world.assets/image-20260413200356678.png)
