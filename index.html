@@ -1,4 +1,22 @@
 ---
-layout: home
-# Index page
+# 这里什么都不用写，空的 Front Matter 就行
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>我的网站</title>
+</head>
+<body>
+  <h1>欢迎来到我的网站</h1>
+  <p>页面已经正常运行啦！</p>
+
+  <h2>最新文章</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
