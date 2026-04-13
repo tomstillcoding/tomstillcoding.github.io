@@ -8,7 +8,7 @@ author: 湾区书记汤姆
 
 toc: true
 comments: true
-typora-root-url: ../../desytiny.github.io
+
 math: false
 mermaid: true
 
@@ -27,6 +27,4 @@ int main(){
 }
 ```
 
-![](/../desytiny.github.io/assets/blog_res/2021-03-30-hello-world.assets/huoshan.jpg)
-
-![image-20260413200356678](/_posts/2021-03-30-hello-world.assets/image-20260413200356678.png)
+![image-20260413201457751](../assets/blog_res/2021-03-30-hello-world.assets/image-20260413201457751.png)
