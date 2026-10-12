@@ -1,18 +1,31 @@
-# hidden files
-.*
-!.git*
-!.editorconfig
-!.nojekyll
-!.travis.yml
+# build output
+dist/
 
-# bundler cache
-_site
-vendor
+# generated types
+.astro/
 
-# rubygem
-*.gem
+# dependencies
+node_modules/
 
-# npm dependencies
-node_modules
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+.vercel
+
 package-lock.json
-Gemfile.lock
+bun.lockb
+yarn.lock
+
+# ide
+.idea
+*.iml

@@ -1,0 +1,51 @@
+diff --git a/dist/content/mutable-data-store.js b/dist/content/mutable-data-store.js
+index d8ec6754c244db594209789d579e1f40b05ebfc6..07daea5ff0d2f105c5d23bceb310169ea9328fd4 100644
+--- a/dist/content/mutable-data-store.js
++++ b/dist/content/mutable-data-store.js
+@@ -192,31 +192,29 @@ ${lines.join(",\n")}]);
+       this.#maybeResolveSavePromise();
+     }, SAVE_DEBOUNCE_MS);
+   }
+-  #writing = /* @__PURE__ */ new Set();
+-  #pending = /* @__PURE__ */ new Set();
+-  async #writeFileAtomic(filePath, data, depth = 0) {
+-    if (depth > MAX_DEPTH) {
+-      return;
+-    }
++  // Patched: serialize writes per file. Upstream queued overlapping writes and then re-wrote the
++  // *first* caller's (stale) data, and resolved the second caller before anything was written,
++  // which randomly dropped entries from data-store.json on large sites.
++  #writeChains = /* @__PURE__ */ new Map();
++  async #writeFileAtomic(filePath, data) {
+     const fileKey = filePath.toString();
+-    if (this.#writing.has(fileKey)) {
+-      this.#pending.add(fileKey);
+-      return;
+-    }
+-    this.#writing.add(fileKey);
+-    const tempFile = filePath instanceof URL ? new URL(`${filePath.href}.tmp`) : `${filePath}.tmp`;
+-    try {
++    const previous = this.#writeChains.get(fileKey) ?? Promise.resolve();
++    const current = previous.catch(() => {
++    }).then(async () => {
++      const tempFile = filePath instanceof URL ? new URL(`${filePath.href}.tmp`) : `${filePath}.tmp`;
+       const oldData = await fs.readFile(filePath, "utf-8").catch(() => "");
+       if (oldData === data) {
+         return;
+       }
+       await fs.writeFile(tempFile, data);
+       await fs.rename(tempFile, filePath);
++    });
++    this.#writeChains.set(fileKey, current);
++    try {
++      await current;
+     } finally {
+-      this.#writing.delete(fileKey);
+-      if (this.#pending.has(fileKey)) {
+-        this.#pending.delete(fileKey);
+-        await this.#writeFileAtomic(filePath, data, depth + 1);
++      if (this.#writeChains.get(fileKey) === current) {
++        this.#writeChains.delete(fileKey);
+       }
+     }
+   }
